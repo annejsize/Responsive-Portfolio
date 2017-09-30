@@ -1,0 +1,239 @@
+/* 
+=================
+Stylin' The Site
+================= 
+
+—----Elements within Body Styling ----- 
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-all {
+    width: 100%;
+    padding-left: 228px;
+    float: left;
+}
+
+.header-1 {
+    width:650px;
+    float:left;
+}
+
+.header-2 {
+    width: 270px;
+    float: left;
+    word-spacing: 30px;
+    display: inline; 
+    vertical-align: bottom;
+}
+
+
+.container {
+    float: left;
+    background-image: url('../images/congruent_outline.png');
+    width: 100%;
+    padding-left: 228px;
+    padding-top: 52px;
+} 
+
+
+.main-sect {
+    width: 630px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-right: 10px;
+}
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    margin-left:10px;
+    padding:10px;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    padding: 20px 10px 10px 20px;
+}
+
+.icon-image {    
+    width: 25%;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.port-image {
+    width: 250px;
+    height:auto;
+    padding: 14px 38px 20px 35px;
+}
+
+#port-labels {
+    width: 250px;
+    position: relative;
+    float: left; 
+    padding-right: 50px;
+}
+
+#port-tags {
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width:250px;
+    top: 158px;
+    left: 35px;
+    z-index: 1;
+    position: absolute;
+    padding: 5px 0;
+}
+
+.main-sect, #bio-image, .sidebar {
+    float: left;
+}
+
+/* Form Stylin' */
+.form-edits {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+
+
+} 
+
+label {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clearfix: after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+ /* 
+—----Last Resort Paddings----- 
+*/
+
+.padme {
+    padding-top:10px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+.padmep {
+    padding-top:30px;
+    text-align: center;
+
+}
+
+ /* 
+—----Font Styling----- 
+*/
+
+* {
+    color:#777777;
+}
+
+p, a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+    padding: 21px;
+}
+
+#f-center{
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color:white;
+    margin-top: 0;
+    padding: 20px;
+    display: inline-block; 
+    font-family: "Georgia", Times New Roman, Times, serif;
+}
+    
+h2 {
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom:10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+h2, h3 {
+    color:#4aaaa5;
+    font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+ /* 
+—----List Styling----- 
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    color: #777777;
+}
+
+.footer {
+height: 50px;
+color:white;
+background-color: #666666 ;
+border-top: 10px #4aaaa5 solid;
+clear: both;
+display: block;
+
+}
