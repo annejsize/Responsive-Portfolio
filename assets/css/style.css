@@ -237,3 +237,82 @@ clear: both;
 display: block;
 
 }
+
+ /* 
+—----Media Query----- 
+*/
+
+@media screen and (max-width: 980px) {
+  /* The body's bg color will be green */
+  body {
+    background-color: green;
+    }
+  
+  .container, .main-sect, .sidebar {
+    width: 100%;
+    }
+
+  .container {
+    padding-left: 0;
+    } 
+
+  .sidebar {
+    margin-top: 40px;
+    }
+  .icon-image {    
+    width: 15%;
+
+    }   
+}
+
+/* Additional Screen Sizes */
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be light blue */
+  body {
+    background-color: lightblue;
+    }
+  
+  .container, .main-sect, .sidebar {
+    width: 100%;
+    }
+
+  .container {
+    padding-left: 0;
+    } 
+
+  .sidebar {
+    margin-top: 40px;
+    }
+  .icon-image {    
+    width: 15%;
+
+    }   
+}
+
+
+/* Width at 320px and below */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: yellow;
+    }
+  
+  .container, .main-sect, .sidebar {
+    width: 100%;
+    }
+
+  .container {
+    padding-left: 0;
+    } 
+
+  .sidebar {
+    margin-top: 40px;
+    }
+  .icon-image {    
+    width: 15%;
+    }   
+}
+
+
+
+
+
