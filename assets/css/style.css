@@ -29,7 +29,6 @@ body {
 }
 
 .container {
-  width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
@@ -300,28 +299,35 @@ li {
 
 @media screen and (max-width: 980px) {
   /* The body's bg color will be green */
-    #header-all  {
-        background-color: green;
-        position: static;
-        width: 100%;
-        margin: 0 20px;
+#header-all  {
+  background-color: green;
+    width: 100%;
     }
 
-    nav {
-        float: left;
+#header-1 {
+  width:100%;
+  } 
+
+nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
     }
 
-    .container {
-        margin-left:5%;
+.container {
+    float: left;
+    width: 100%;
+    padding:10px;
     }
 
-  
-    .main-sect, .sidebar {
-    width: 90%;
+   .main-sect, .sidebar {
+      max-width: 100%;
     }
 
     .sidebar {
-        float: left;
+      float: left;
+      text-align: center;
     }
 
 }
@@ -329,28 +335,35 @@ li {
 /* Additional Screen Sizes */
 @media screen and (max-width: 768px) {
   /* The body's bg color will be light blue */
-    #header-all  {
+#header-all  {
         background-color: lightblue;
         width: 100%;
-        margin: 0 20px;
     }
 
-    nav {
-        float: left;
-        margin-left: 5%;
+#header-1 {
+  width:100%;
+  } 
+
+nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
     }
 
-    .container {
-        margin-left: 5%;
+.container {
+    float: left;
+    width: 100%;
+    padding:10px;
     }
 
-  
-    .main-sect, .sidebar {
-    width: 90%;
+   .main-sect, .sidebar {
+      max-width: 100%;
     }
 
     .sidebar {
-        float: left;
+      float: left;
+      text-align: center;
     }
 
 }
@@ -359,32 +372,37 @@ li {
 /* Width at 320px and below */
 @media screen and (max-width: 640px) {
 
-    #header-all {
-        position: static;
+#header-all {
         background-color: yellow;
         width: 100%;
-        margin: 0 20px;
+}
+
+#header-1 {
+  width:100%;
+  } 
+
+nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
     }
 
-    nav {
-        float: left;
-        margin-left: 5%;
+.container {
+    float: left;
+    width: 100%;
+    padding:10px;
     }
 
-    .container {
-        margin-left: 5%;
-    }
-
-  
-    .main-sect, .sidebar {
-    width: 90%;
+   .main-sect, .sidebar {
+      max-width: 100%;
     }
 
     .sidebar {
-        float: left;
+      float: left;
+      text-align: center;
     }
 
 }
-
 
 
